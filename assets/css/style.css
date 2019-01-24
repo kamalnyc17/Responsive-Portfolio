@@ -248,3 +248,102 @@ textarea {
     padding-top: 10px;
     padding-bottom: 3px;
 }
+
+/* ==== media query for 980px  === */
+
+@media only screen and (max-width: 980px) {
+    .logo {
+        float: left;
+        font-size: 34px;
+        font-weight: 100;
+        letter-spacing: .5px;
+        line-height: 44px;
+        margin-left: 50px;
+        padding: 30px 10px;
+    }  
+    .primary-nav li:last-child {
+        margin-right: 75px;
+    }
+    .subheading {        
+        font-size: 34px;
+    }
+    .inner {
+        margin-left: 50px;
+    }
+}
+
+/* ==== media query for 768px  === */
+@media only screen and (max-width: 768px) {
+    .logo {
+        float: left;
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: .5px;
+        line-height: 42px;
+        margin-left: 10px;
+    }  
+    .primary-nav {
+        font-size: 16px;
+    }
+    .primary-nav li:last-child {
+        margin-right: 25px;
+    }    
+    .subheading {        
+        font-size: 24px;
+    }
+    .inner {
+        margin-left: 10px;        
+        max-width: 700px;
+    }
+}
+
+/* ==== media query for 640px  === */
+@media only screen and (max-width: 640px) {
+    .logo {
+        float: left;
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: .5px;
+        line-height: 42px;
+        margin-left: 10px;
+        padding: 5px 200px;
+        max-width: 100%;
+    }  
+    .primary-nav {
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 20px;
+    }    
+    .primary-nav li {
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .subheading {        
+        font-size: 24px;        
+        margin-left: 50px;
+    }
+    .inner {
+        margin-left: 10px;        
+        max-width: 580px;
+    }
+    
+    /* === portfolio page === */
+    .picframe1,
+    .picframe2 {
+        height: 150px;
+        width: 300px;
+        display:block;
+        margin-left: 50px;
+    }
+    .picframe1:last-child {
+        margin-bottom: 10px;
+    }
+    .picframeempty {
+        height: 0px;
+        width: 0px;
+    }
+    .label1,
+    .label2 {
+        margin-left: 10px;
+    }
+}
